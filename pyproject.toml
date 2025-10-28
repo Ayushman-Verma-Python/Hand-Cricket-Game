@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "handcricket"
+version = "1.0.0"
+authors = [
+    { name = "Ayushman Verma", email = "207686214+Ayushman-Verma-Python@users.noreply.github.com" }
+]
+description = "A simple command-line Hand Cricket game made in Python."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+[project.urls]
+"Homepage" = "https://github.com/Ayushman-Verma-Python/Hand-Cricket-Game"
+"Bug Tracker" = "https://github.com/Ayushman-Verma-Python/Hand-Cricket-Game/issues"
